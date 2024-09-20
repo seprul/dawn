@@ -102,6 +102,6 @@ if [ ! -f "$CONFIG_FILE" ] || [ ! -s "$CONFIG_FILE" ]; then
         )
     done
 
-    echo "$CONFIG_JSON" > $CONFIG_FILE
-
-    echo "Config file $CONFIG_FILE has been created and populated
+    echo "$CONFIG_JSON" > "$CONFIG_FILE"
+    
+    echo "Config file $CONFIG_FILE has been created and populated"
